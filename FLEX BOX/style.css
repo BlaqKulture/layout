@@ -1,8 +1,13 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", cursive;
 }
 
 body {
-  background-color: very lightgray;
+  width: 1440px;
+  background-color: #f0f0f0;
 }
 
 main {
@@ -77,4 +82,23 @@ main {
 .icon{
    padding-bottom: 1px;
    padding-top: 4px;
+}
+
+button:hover {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  cursor: pointer;
+      }
+
+h3 {
+ font-family: " Big Shoulders Display", cursive;
+ }
+ @media (max-width: 375px) {
+ main {
+ width: 50%;
+margin: auto;
+ display: flex;
+flex-direction: row;
+height: 100vh;
 }
